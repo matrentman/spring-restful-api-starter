@@ -1,0 +1,3 @@
+This is a basic RESTful API starter application that I created to use as a starting point for new API projects. This was built using Spring-Tool-Suite, this is a SpringBoot project and uses the gradle build tool. There are APIs for logging in, creating retrieving, updating and deleting a user. The login API requires the users credentials for validation, it returns a token that is required on all other API calls. This token will expire after a set amount of time (30 minutes currently) but refreshes with each activity. 
+
+I use the RestClient browser plugin for testing. 
