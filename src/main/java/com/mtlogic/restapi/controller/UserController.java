@@ -25,7 +25,7 @@ public class UserController
     private UserRepository userRepository;
 
     @RequestMapping(value = "/user/{userID}", method = RequestMethod.GET)
-    public User user(@PathVariable("userID") Long userID, @RequestHeader(value="token") String token, HttpServletResponse responsz) 
+    public User user(@PathVariable("userID") Long userID, @RequestHeader(value="token") String token, HttpServletResponse response) 
     {
         LOGGER.debug("==== in /user GET ====");
 
